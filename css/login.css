@@ -1,0 +1,242 @@
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,
+legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,
+details,figcaption,figure,footer,header,menu,nav,section {
+    margin:0;
+    padding:0;
+}
+html,body{
+    height: 100%;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    font-family: 微软雅黑;
+}
+a{
+    color: #757575;
+    text-decoration: none;
+}
+.login{
+    width: 100%;
+    min-height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    position: relative;
+}
+.login-box{
+    width: 855px;
+    height: 620px;
+    margin: auto auto;
+    background-color: #fff;
+    color: #757575;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.login-box-ewm{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 68px;
+    height: 68px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.login-box-ewm img{
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 10px;
+    opacity: 0.3;
+}
+.login-box-ewm img:hover{
+    opacity: 0.8;
+}
+.login-box-ewm div{
+    width: 100px;
+    height: 100px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform:rotate(45deg) ;
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform:rotate(45deg);
+    background-color: #fff;
+    position: absolute;
+    right: 20px;
+    top:20px
+}
+/**********************/
+.login-box-logo{
+    padding: 50px 0 22px 0 ;
+    height: 120px;
+}
+.login-logo{
+    width: 50px;
+    margin: 0 auto;
+}
+.login-box-logo h4{
+    padding-top: 22px;
+    font-size: 30px;
+    color: #424242;
+    text-align: center;
+    font-weight: inherit;
+}
+/***********************/
+
+.login-box-login{
+    width: 360px;
+    margin: 0 auto;
+}
+.login-box-login input{
+    width: 344px;
+    height: 50px;
+    padding-left: 14px;
+    margin-bottom: 14px;
+    border: 1px solid #e0e0e0;
+}
+.login-box-login input[type="password"]{
+    margin-bottom: 34px;
+}
+.login-box-login input[type="submit"]{
+    width: 360px;
+    border: 0;
+    background-color: #ef5b00;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.box-login-text{
+    border:0;
+    border-top: 1px solid #e0e0e0;
+}
+.box-login-text legend{
+    color: #b0b0b0;
+    font-size: 14px;
+}
+/**************/
+.box-login-icon{
+    height: 30px;
+    width: 360px;
+    text-align: center;
+}
+.box-login-icon a{
+    background-color: #757575;
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 20px 20px 0;
+}
+.box-login-icon i{
+    background-image:url(https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png);
+    width: 18px;
+    height: 18px;
+    display: block;
+    margin:auto;
+    margin-top: 5px;
+}
+.login-icon-qq{
+    background-position: -19px 0;
+}
+.login-icon-wb{
+    background-position: -38px 0;
+}
+.login-icon-zfb{
+    background-position: -57px 0;
+}
+.box-login-icon a:hover{
+    background-color: #0288d1;
+}
+#login-icon-a:hover{
+    background-color: #d32f2f;
+}
+/******************/
+.box-login-bottom{
+    margin-top: 80px;
+    text-align: center;
+}
+.box-login-bottom a{
+    font-size: 14px;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
+}
+.box-login-bottom a:hover{
+    color: #ef5b00;
+}
+/*****************/
+.login-bot{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color:#757575;
+}
+
+.login-bot-top{
+    margin: 10px 0;
+}
+
+.login-bot-top a{
+    display: inline-block;
+    margin:0 10px;
+}
+.login-bot-top a:hover,.login-bot-bot a:hover{
+    color: #333;
+}
+
+/****************/
+.login-two{
+    display: none;
+}
+.two-false{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #999;
+    border-radius: 50%;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.two-false img{
+    width: 14px;
+    height: 14px;
+    margin: 8px;
+}
+.two-box{
+    text-align: center;
+    padding-top: 120px;
+}
+.two-text h4{
+    font-size: 30px;
+    color: #ff6700;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.two-text p{
+    font-size: 12px;
+}
+.two-ewm{
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.two-ewm img{
+    width: 272px;
+    height: 272px;
+}
+/*****************/
+.box-login-p{
+    color: #ff6700;
+    font-size: 13px;
+}
+
